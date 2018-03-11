@@ -34,7 +34,7 @@ public class Alumno {
 		for(int nota:notas) {
 			result+=nota;
 		}
-		result = result/notas.length;
+		result = result/(double)notas.length;
 		
 		return result;
 	}
