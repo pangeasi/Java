@@ -9,8 +9,11 @@ public class MediaComparator implements Comparator<Alumno> {
 		
 		if(alumno1 < alumno2) {
 			return 1;
-		}else {
-			return 0;
 		}
+		if(alumno1 > alumno2) {
+			return -1;
+		}
+		return 0;
+		
 	}
 }
