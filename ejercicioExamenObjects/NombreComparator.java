@@ -9,8 +9,10 @@ public class NombreComparator implements Comparator<Alumno> {
 		
 		if(nombre1.length() > nombre2.length()) {
 			return 1;
-		}else {
+		}
+		if(nombre1.length() < nombre2.length()){
 			return 0;
 		}
+		return -1;
 	}
 }

@@ -11,9 +11,9 @@ public class MediaComparator implements Comparator<Alumno> {
 			return 1;
 		}
 		if(alumno1 > alumno2) {
-			return -1;
+			return 0;
 		}
-		return 0;
+		return -1;
 		
 	}
 }
